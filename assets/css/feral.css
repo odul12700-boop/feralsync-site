@@ -1,0 +1,192 @@
+/* ============================================================
+   FERALSYNC — PALETTE FERAL (transposée depuis l'application)
+   background  #0E120F  fond forêt vert-noir
+   surface     #221A12  cartes bois
+   primary     #35C9B0  teal (accents, liens)
+   secondary   #D2A566  bois/ambre (titres de sections)
+   tertiary    #7FB069  vert mousse
+   outline     #4A3B28  liseré écorce
+   texte       #ECE6DA  ivoire chaud
+   ============================================================ */
+
+:root {
+  --background: #0E120F;
+  --surface: #221A12;
+  --surface-variant: #30251A;
+  --primary: #35C9B0;
+  --on-primary: #06120E;
+  --secondary: #D2A566;
+  --tertiary: #7FB069;
+  --outline: #4A3B28;
+  --text: #ECE6DA;
+  --text-muted: rgba(236, 230, 218, 0.65);
+  --error: #E2756B;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ---------- EN-TÊTE ---------- */
+.site-header {
+  border-bottom: 1px solid var(--outline);
+  background: rgba(14, 18, 15, 0.97);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.brand {
+  font-size: 26px;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+.brand-feral { color: var(--secondary); }
+.brand-sync  { color: var(--primary); }
+
+.site-nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.site-nav a:hover { color: var(--primary); }
+
+/* ---------- CONTENU ---------- */
+main { padding: 40px 20px 60px; }
+
+h1 { color: var(--secondary); font-size: 34px; line-height: 1.25; margin-bottom: 18px; }
+h2 { color: var(--primary); font-size: 24px; margin: 34px 0 12px; }
+h3 { color: var(--tertiary); font-size: 19px; margin: 26px 0 10px; }
+
+p, ul, ol { margin-bottom: 16px; }
+ul, ol { padding-left: 24px; }
+
+a { color: var(--primary); }
+a:hover { color: var(--secondary); }
+
+strong { color: var(--secondary); }
+
+/* ---------- CARTES (capsules bois, comme dans l'app) ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--outline);
+  border-radius: 12px;
+  padding: 22px;
+  margin: 20px 0;
+}
+
+.card h2, .card h3 { margin-top: 0; }
+
+/* ---------- BOUTON (appel à l'action) ---------- */
+.btn {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-weight: 800;
+  padding: 12px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 8px 0;
+}
+.btn:hover { background: var(--secondary); color: #241606; }
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.btn-secondary:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+  background: transparent;
+}
+
+/* ---------- LISTE D'ARTICLES ---------- */
+.post-list { list-style: none; padding: 0; }
+
+.post-list li {
+  background: var(--surface);
+  border: 1px solid var(--outline);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin-bottom: 14px;
+}
+
+.post-list .post-date {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.post-list a {
+  color: var(--text);
+  font-weight: 700;
+  font-size: 19px;
+  text-decoration: none;
+}
+.post-list a:hover { color: var(--primary); }
+
+.post-list .post-excerpt {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin: 6px 0 0;
+}
+
+/* ---------- ARTICLE ---------- */
+.post .post-date { color: var(--text-muted); font-size: 14px; }
+
+.post-footer-note {
+  background: var(--surface-variant);
+  border: 1px solid var(--outline);
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 30px 0 18px;
+}
+
+/* ---------- PIED DE PAGE ---------- */
+.site-footer {
+  border-top: 1px solid var(--outline);
+  padding: 28px 0 36px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.site-footer p { margin-bottom: 10px; }
+.site-footer a { color: var(--text-muted); }
+.site-footer a:hover { color: var(--primary); }
+
+.disclaimer { font-style: italic; }
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 640px) {
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .site-nav a { margin-left: 0; margin-right: 14px; }
+  h1 { font-size: 27px; }
+}

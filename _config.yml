@@ -1,0 +1,21 @@
+# ============================================
+# CONFIGURATION DU SITE FERALSYNC
+# Modifie librement title, description, email.
+# ============================================
+title: FeralSync
+description: "Biohacking, chronobiologie et hygiène de vie : comprendre son corps pour mieux organiser son quotidien."
+url: "https://feralsync.com"
+lang: fr
+
+# Adresse email de contact (à remplacer par ta vraie adresse)
+email: contact@feralsync.com
+
+# Format des adresses des articles : /actualites/titre-de-l-article/
+permalink: /actualites/:title/
+
+# Moteur de construction
+markdown: kramdown
+
+# Fichiers à ne pas publier
+exclude:
+  - README.md
