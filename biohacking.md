@@ -11,8 +11,49 @@ Le biohacking, tel que nous l'abordons, c'est l'idée de **mieux comprendre son
 corps** et d'agir sur son hygiène de vie de façon réfléchie plutôt que de la subir.
 Ni régime, ni promesse miracle : une démarche d'observation et d'organisation.
 
-Chaque concept ci-dessous est présenté ici en résumé. Cliquez pour accéder à la
-page complète — quand elle est disponible.
+## Tout ne se vaut pas
+
+Avant d'entrer dans le détail, une mise au point qui oriente tout le reste :
+**ces concepts n'ont ni le même poids, ni le même niveau de preuve.**
+
+Le **sommeil** et l'**activité physique** ont des effets individuels
+considérables, et comptent parmi les plus solidement établis de toute la
+médecine préventive. La régularité des rythmes et la qualité de l'alimentation
+viennent juste derrière. Ce sont les fondations : peu spectaculaires, très
+documentées.
+
+Le reste — protocoles de jeûne, expositions au froid, molécules et compléments —
+relève d'effets plus **modestes, plus incertains, ou mesurés dans des conditions
+éloignées de la vie réelle**. Ce n'est pas inintéressant, c'est simplement
+secondaire.
+
+<div class="card">
+<h3>⚖️ Une hiérarchie, pas un empilement</h3>
+<p>On lit souvent que ces pratiques agiraient « en synergie », chacune
+renforçant les autres. L'idée est séduisante, mais elle mérite d'être maniée
+avec précaution : « synergie » est aussi le mot qui permet de justifier
+n'importe quel empilement sans jamais rendre de comptes sur un élément isolé.
+Additionner des effets faibles et incertains ne produit pas mécaniquement un
+grand effet — et cumuler les contraintes peut même se retourner, comme
+l'explique la page sur l'hormèse.</p>
+<p>Ce qui est en revanche bien documenté, c'est que les <strong>fondations
+interagissent réellement entre elles</strong> : mieux dormir améliore la
+récupération et la régulation de l'appétit, bouger améliore le sommeil, manger
+à heures régulières soutient l'horloge qui soutient le sommeil.</p>
+<p>Une précision utile sur les compléments, enfin : ils produisent leurs effets
+les plus nets lorsqu'ils <strong>comblent un manque</strong>. Un organisme dont
+les fondations sont bonnes n'en tire pas <em>davantage</em> — il en a
+généralement <em>moins besoin</em>. C'est une hiérarchie, pas un effet
+multiplicateur.</p>
+</div>
+
+**En pratique :** si vous ne deviez retenir que deux choses de tout ce site, ce
+serait le sommeil et le mouvement. Le reste vient après, et se discute.
+
+---
+
+Chaque concept ci-dessous est présenté en résumé. Cliquez pour accéder à la
+page complète.
 
 <div class="card">
 <h2><a href="{{ '/biohacking/rythme-circadien/' | relative_url }}">🕐 Le rythme circadien</a></h2>
