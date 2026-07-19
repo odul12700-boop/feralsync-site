@@ -45,12 +45,13 @@ le coucher.</p>
 </div>
 
 <div class="card">
-<h2>🌶️ L'hormèse</h2>
+<h2><a href="{{ '/biohacking/hormese/' | relative_url }}">🌶️ L'hormèse</a></h2>
 <p>L'idée qu'un stress bref et maîtrisé — le froid d'une douche, l'intensité
-d'un effort — provoque une réponse d'adaptation de l'organisme. C'est un champ
-de recherche actif, à aborder progressivement et avec bon sens : le mot-clé est
-« maîtrisé », pas « extrême ».</p>
-<p><em>Page complète à venir.</em></p>
+d'un effort — provoque une réponse d'adaptation de l'organisme. Mais le concept
+décrit une courbe précise : ce qui stimule à faible dose nuit à forte dose. Le
+mot-clé est « maîtrisé », pas « extrême » — et la recherche donne des repères
+chiffrés sur ce point.</p>
+<p><a href="{{ '/biohacking/hormese/' | relative_url }}">Lire la page complète →</a></p>
 </div>
 
 <div class="card">
