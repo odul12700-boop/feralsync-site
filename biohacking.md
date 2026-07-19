@@ -55,13 +55,14 @@ chiffrés sur ce point.</p>
 </div>
 
 <div class="card">
-<h2>🧬 Les molécules qui intéressent la recherche</h2>
+<h2><a href="{{ '/biohacking/molecules/' | relative_url }}">🧬 Les molécules qui intéressent la recherche</a></h2>
 <p>Spermidine du germe de blé, anthocyanes des myrtilles, quercétine de l'oignon
 rouge, fisétine de la fraise, sulforaphane des brocolis… De nombreux composés
 présents dans l'alimentation font l'objet de travaux scientifiques. Nous les
 présentons pour ce qu'ils sont — leur origine, l'état des études — sans leur
-prêter de pouvoirs qu'ils n'ont pas démontrés.</p>
-<p><em>Page complète à venir.</em></p>
+prêter de pouvoirs qu'ils n'ont pas démontrés — en expliquant notamment
+pourquoi les résultats obtenus en laboratoire se transposent mal à l'assiette.</p>
+<p><a href="{{ '/biohacking/molecules/' | relative_url }}">Lire la page complète →</a></p>
 </div>
 
 ## Envie de mettre en pratique ?
