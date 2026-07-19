@@ -84,11 +84,24 @@ body {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
   font-size: 26px;
   font-weight: 900;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
+
+/* Tête de loup — fichier attendu : assets/img/wolf.png (fond transparent) */
+.brand-logo {
+  height: 44px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+.brand-text { display: inline-block; }
 .brand-feral { color: var(--secondary); }
 .brand-sync  { color: var(--primary); }
 
@@ -210,6 +223,14 @@ hr {
 }
 
 .site-footer p { margin-bottom: 10px; }
+
+.footer-logo {
+  height: 36px;
+  width: auto;
+  display: block;
+  margin-bottom: 14px;
+  opacity: 0.45;
+}
 .site-footer a { color: var(--text-muted); }
 .site-footer a:hover { color: var(--primary); }
 
@@ -220,4 +241,7 @@ hr {
   .header-inner { flex-direction: column; align-items: flex-start; }
   .site-nav a { margin-left: 0; margin-right: 14px; }
   h1 { font-size: 27px; }
+  .brand { font-size: 22px; gap: 9px; }
+  .brand-logo { height: 34px; }
+  .footer-logo { height: 30px; }
 }
