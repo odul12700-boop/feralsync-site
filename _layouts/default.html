@@ -5,6 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- ============================================================
+       FAVICON — icône de l'onglet du navigateur.
+       Fichier attendu : assets/img/wolf.png (fond transparent).
+       ============================================================ -->
+  <link rel="icon" type="image/png" href="{{ '/assets/img/wolf.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/img/wolf.png' | relative_url }}">
+
+  <!-- ============================================================
+       APERÇU DE PARTAGE (Open Graph) — ce qui s'affiche quand on
+       colle un lien du site dans un message ou un réseau social.
+       Fichier attendu : assets/img/og-image.png, idéalement en
+       1200 × 630 px (loup + wordmark sur fond forêt).
+       Tant qu'il n'existe pas, le loup seul fait l'affaire :
+       remplace og-image.png par wolf.png dans les deux lignes.
+       ============================================================ -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/og-image.png' | absolute_url }}">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="stylesheet" href="{{ '/assets/css/feral.css' | relative_url }}">
 </head>
 <body>
@@ -12,7 +37,11 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="{{ '/' | relative_url }}" class="brand">
-        <span class="brand-feral">Feral</span><span class="brand-sync">Sync</span>
+        <img src="{{ '/assets/img/wolf.png' | relative_url }}"
+             alt="" class="brand-logo" width="44" height="44">
+        <span class="brand-text">
+          <span class="brand-feral">Feral</span><span class="brand-sync">Sync</span>
+        </span>
       </a>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Accueil</a>
@@ -30,6 +59,8 @@
 
   <footer class="site-footer">
     <div class="container">
+      <img src="{{ '/assets/img/wolf.png' | relative_url }}"
+           alt="" class="footer-logo" width="36" height="36">
       <p class="disclaimer">
         Les contenus de ce site sont proposés à titre informatif et pédagogique.
         Ils ne constituent pas un avis médical et ne remplacent pas l'accompagnement
