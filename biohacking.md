@@ -35,12 +35,13 @@ l'humain sont plus nuancés qu'on ne le dit souvent, et le jeûne ne convient pa
 </div>
 
 <div class="card">
-<h2>😴 Le sommeil</h2>
-<p>Le pilier que rien ne remplace. C'est pendant le sommeil que la récupération
-physique et mentale s'opère. Les leviers les plus étudiés sont d'une simplicité
-désarmante : horaires réguliers, obscurité, fraîcheur, et un vrai sas de
-décompression avant le coucher.</p>
-<p><em>Page complète à venir.</em></p>
+<h2><a href="{{ '/biohacking/sommeil/' | relative_url }}">😴 Le sommeil</a></h2>
+<p>Le pilier que rien ne remplace. Une nuit s'organise en cycles, et deux forces
+décident de votre sommeil : la pression accumulée depuis le réveil et l'horloge
+interne. Les leviers les plus étudiés sont d'une simplicité désarmante :
+horaires réguliers, obscurité, fraîcheur, et un vrai sas de décompression avant
+le coucher.</p>
+<p><a href="{{ '/biohacking/sommeil/' | relative_url }}">Lire la page complète →</a></p>
 </div>
 
 <div class="card">
