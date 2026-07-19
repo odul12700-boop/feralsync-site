@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Comprendre le biohacking
-description: "Qu'est-ce que le biohacking ? Rythme circadien, jeûne, sommeil, lumière : les concepts expliqués simplement."
+description: "Qu'est-ce que le biohacking ? Rythme circadien, jeûne, sommeil, hormèse : les concepts expliqués simplement."
 permalink: /biohacking/
 ---
 
@@ -24,14 +24,14 @@ une chambre fraîche : autant de repères simples qui l'aident à faire son trav
 </div>
 
 <div class="card">
-<h2>⏳ Le jeûne intermittent</h2>
+<h2><a href="{{ '/biohacking/jeune-intermittent/' | relative_url }}">⏳ Le jeûne intermittent</a></h2>
 <p>Ménager des fenêtres sans prise alimentaire, c'est offrir au système digestif
 des temps de pause. De nombreuses recherches explorent les mécanismes déclenchés
 pendant ces périodes, comme l'autophagie — le processus de « recyclage » interne
-des cellules, dont la découverte a valu un prix Nobel en 2016. Le jeûne ne
-convient pas à tout le monde : en cas de doute, l'avis d'un professionnel de
-santé s'impose.</p>
-<p><em>Page complète à venir.</em></p>
+des cellules, dont la découverte a valu un prix Nobel en 2016. Les résultats chez
+l'humain sont plus nuancés qu'on ne le dit souvent, et le jeûne ne convient pas
+à tout le monde.</p>
+<p><a href="{{ '/biohacking/jeune-intermittent/' | relative_url }}">Lire la page complète →</a></p>
 </div>
 
 <div class="card">
