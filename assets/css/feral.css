@@ -1,25 +1,50 @@
 /* ============================================================
-   FERALSYNC — PALETTE FERAL (transposée depuis l'application)
-   background  #0E120F  fond forêt vert-noir
-   surface     #221A12  cartes bois
-   primary     #35C9B0  teal (accents, liens)
-   secondary   #D2A566  bois/ambre (titres de sections)
-   tertiary    #7FB069  vert mousse
-   outline     #4A3B28  liseré écorce
-   texte       #ECE6DA  ivoire chaud
+   FERALSYNC — PALETTE FERAL
+   Alignée au pixel près sur ThemeManager.kt (thème FeralColors).
+
+   ⚠️ SOURCE UNIQUE : si tu modifies une couleur dans l'app,
+   reporte-la ici — et inversement. La correspondance ci-dessous
+   indique le nom du slot Material 3 côté application.
+
+   --background        background         #1A231C  fond forêt
+   --surface           surface            #221A12  cartes bois
+   --surface-variant   surfaceVariant     #30251A  bois clair
+   --primary           primary            #35C9B0  teal
+   --on-primary        onPrimary          #06120E
+   --secondary         secondary          #D2A566  ambre / bois
+   --on-secondary      onSecondary        #241606
+   --tertiary          tertiary           #7FB069  vert mousse
+   --outline           outline            #715C09  liseré doré
+   --outline-variant   outlineVariant     #2C2218  séparateur discret
+   --surface-tint      surfaceTint        #C79A5E
+   --text              onBackground       #ECE6DA  ivoire chaud
+   --text-muted        onSurfaceVariant   #C7BAA4  beige atténué
+   --primary-container primaryContainer   #1E4D44
+   --error             error              #E2756B
    ============================================================ */
 
 :root {
-  --background: #0E120F;
+  --background: #1A231C;
   --surface: #221A12;
   --surface-variant: #30251A;
+
   --primary: #35C9B0;
   --on-primary: #06120E;
+  --primary-container: #1E4D44;
+  --on-primary-container: #9FE9DC;
+
   --secondary: #D2A566;
+  --on-secondary: #241606;
+
   --tertiary: #7FB069;
-  --outline: #4A3B28;
+
+  --outline: #715C09;
+  --outline-variant: #2C2218;
+  --surface-tint: #C79A5E;
+
   --text: #ECE6DA;
-  --text-muted: rgba(236, 230, 218, 0.65);
+  --text-muted: #C7BAA4;
+
   --error: #E2756B;
 }
 
@@ -42,7 +67,7 @@ body {
 /* ---------- EN-TÊTE ---------- */
 .site-header {
   border-bottom: 1px solid var(--outline);
-  background: rgba(14, 18, 15, 0.97);
+  background: rgba(26, 35, 28, 0.97);
   position: sticky;
   top: 0;
   z-index: 10;
@@ -91,6 +116,12 @@ a:hover { color: var(--secondary); }
 
 strong { color: var(--secondary); }
 
+hr {
+  border: none;
+  border-top: 1px solid var(--outline-variant);
+  margin: 32px 0;
+}
+
 /* ---------- CARTES (capsules bois, comme dans l'app) ---------- */
 .card {
   background: var(--surface);
@@ -113,7 +144,7 @@ strong { color: var(--secondary); }
   text-decoration: none;
   margin: 8px 0;
 }
-.btn:hover { background: var(--secondary); color: #241606; }
+.btn:hover { background: var(--secondary); color: var(--on-secondary); }
 
 .btn-secondary {
   background: transparent;
@@ -162,7 +193,7 @@ strong { color: var(--secondary); }
 
 .post-footer-note {
   background: var(--surface-variant);
-  border: 1px solid var(--outline);
+  border: 1px solid var(--outline-variant);
   border-radius: 10px;
   padding: 14px 18px;
   font-size: 14px;
