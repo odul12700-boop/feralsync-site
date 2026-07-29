@@ -1,13 +1,40 @@
 ---
 layout: default
 ---
+{% comment %}
+  ============================================================
+  LAYOUT ARTICLE — charte v1 (07/2026)
+  - Ligne de méta : date · temps de lecture (auto) · badge preuve
+  - Le badge est piloté par le front matter de l'article :
+      preuve: solide | prometteur | preliminaire | non-etaye
+    S'il est absent (ex. : annonces, nouveautés de l'app),
+    aucun badge ne s'affiche — c'est voulu.
+  - Le disclaimer santé standard est inséré automatiquement :
+    ne PAS le répéter dans le corps des articles.
+  ============================================================
+{% endcomment %}
+{% case page.preuve %}
+  {% when 'solide' %}{% assign preuve_label = 'Preuves solides ●●●' %}
+  {% when 'prometteur' %}{% assign preuve_label = 'Preuves prometteuses ●●○' %}
+  {% when 'preliminaire' %}{% assign preuve_label = 'Preuves préliminaires ●○○' %}
+  {% when 'non-etaye' %}{% assign preuve_label = 'Non étayé ✕' %}
+{% endcase %}
 <article class="post">
-  <p class="post-date">{{ page.date | date: "%d/%m/%Y" }}</p>
   <h1>{{ page.title }}</h1>
+  <p class="post-meta">
+    <span>{{ page.date | date: "%d/%m/%Y" }}</span> ·
+    {% assign mots = content | number_of_words %}
+    <span>{{ mots | divided_by: 200 | at_least: 1 }} min de lecture</span>
+    {%- if preuve_label %} ·
+    <span class="badge-preuve {{ page.preuve }}">{{ preuve_label }}</span>
+    {%- endif %}
+  </p>
   {{ content }}
   <div class="post-footer-note">
-    Cet article est proposé à titre informatif. Avant toute modification de votre
-    alimentation ou de votre complémentation, demandez conseil à un professionnel de santé.
+    Les contenus de FeralSync sont fournis à titre informatif et ne remplacent pas
+    un avis médical. Consultez un professionnel de santé avant de modifier votre
+    alimentation, votre sommeil, votre activité physique ou votre supplémentation,
+    en particulier en cas de traitement ou de condition médicale.
   </div>
   <p><a href="{{ '/actualites/' | relative_url }}">← Toutes les actualités</a></p>
 </article>
