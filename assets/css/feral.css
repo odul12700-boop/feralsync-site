@@ -245,3 +245,65 @@ hr {
   .brand-logo { height: 34px; }
   .footer-logo { height: 30px; }
 }
+
+/* ============================================================
+   ARTICLES — GABARIT & NIVEAUX DE PREUVE (charte v1, 07/2026)
+   Nouveaux composants : ligne de méta, chapeau, badge niveau
+   de preuve, encadré « À retenir », bloc sources.
+   ============================================================ */
+
+/* Ligne de méta : date · temps de lecture · badge */
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: -6px 0 22px;
+}
+
+/* Chapeau : résumé en tête d'article */
+.post-chapo {
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+
+/* Badge « Niveau de preuve » — pastille, texte + points ●●○ dans le HTML */
+.badge-preuve {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+.badge-preuve.solide       { color: var(--primary);    border-color: var(--primary); }
+.badge-preuve.prometteur   { color: var(--secondary);  border-color: var(--secondary); }
+.badge-preuve.preliminaire { color: var(--text-muted); border-color: var(--text-muted); }
+.badge-preuve.non-etaye    { color: var(--error);      border-color: var(--error); }
+
+/* Encadré « À retenir » : carte avec liseré teal */
+.card--accent { border-left: 3px solid var(--primary); }
+
+/* Bloc sources en fin d'article */
+.sources {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 34px;
+  padding-top: 18px;
+  border-top: 1px solid var(--outline-variant);
+}
+.sources h2 {
+  font-size: 17px;
+  color: var(--text-muted);
+  margin: 0 0 10px;
+}
+.sources ol { padding-left: 20px; }
+.sources li { margin-bottom: 6px; }
+.sources a { color: var(--text-muted); word-break: break-word; }
+.sources a:hover { color: var(--primary); }
