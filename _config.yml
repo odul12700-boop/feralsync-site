@@ -6,16 +6,18 @@ title: FeralSync
 description: "Biohacking, chronobiologie et hygiène de vie : comprendre son corps pour mieux organiser son quotidien."
 url: "https://feralsync.com"
 lang: fr
-
 # Adresse email de contact (à remplacer par ta vraie adresse)
 email: contact@feralsync.com
-
 # Format des adresses des articles : /actualites/titre-de-l-article/
 permalink: /actualites/:title/
-
 # Moteur de construction
 markdown: kramdown
-
+# Plugins Jekyll (pris en charge nativement par GitHub Pages)
+# jekyll-sitemap : génère automatiquement /sitemap.xml à chaque
+# construction du site — aucune maintenance, les nouveaux articles
+# y sont ajoutés tout seuls.
+plugins:
+  - jekyll-sitemap
 # Fichiers à ne pas publier
 exclude:
   - README.md
