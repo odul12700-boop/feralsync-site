@@ -15,14 +15,7 @@ description: "FeralSync : application Android de biohacking et de routines. Lumi
         <a class="btn btn-secondary" href="{{ '/biohacking/' | relative_url }}">Comprendre le biohacking</a>
       </div>
       <div class="home-store">
-        <span class="home-store-badge">
-          <svg class="home-store-icon" width="20" height="22" viewBox="0 0 24 26" fill="none" aria-hidden="true"><path d="M4 2.5v21L20.5 13 4 2.5z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
-          <span class="home-store-lines">
-            <span class="home-store-soon">BIENTÔT SUR</span>
-            <span class="home-store-name">Google Play</span>
-          </span>
-        </span>
-        <span class="home-store-note">Sortie prochaine — Android</span>
+        <span class="home-store-note">Bientôt disponible sur Android.</span>
       </div>
     </div>
   </div>
