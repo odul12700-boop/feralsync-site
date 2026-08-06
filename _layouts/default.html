@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-
   <!-- ============================================================
        FAVICON — icône de l'onglet du navigateur.
        Fichier attendu : assets/img/wolf.png (fond transparent).
        ============================================================ -->
   <link rel="icon" type="image/png" href="{{ '/assets/img/wolf.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/img/wolf.png' | relative_url }}">
-
   <!-- ============================================================
        APERÇU DE PARTAGE (Open Graph) — ce qui s'affiche quand on
        colle un lien du site dans un message ou un réseau social.
@@ -29,7 +27,6 @@
   <meta property="og:image" content="{{ '/assets/img/og-image.png' | absolute_url }}">
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
-
   <link rel="stylesheet" href="{{ '/assets/css/feral.css' | relative_url }}">
 </head>
 <body>
@@ -52,11 +49,9 @@
       </nav>
     </div>
   </header>
-
   <main class="container">
     {{ content }}
   </main>
-
   <footer class="site-footer">
     <div class="container">
       <img src="{{ '/assets/img/wolf.png' | relative_url }}"
@@ -67,8 +62,8 @@
         d'un professionnel de santé.
       </p>
       <p class="affiliate">
-        En tant que Partenaire Amazon, je perçois un bénéfice sur les achats
-        remplissant les conditions requises.
+        Ce site peut contenir des liens vers des produits sur Amazon. Il ne perçoit
+        actuellement aucune rémunération liée à ces liens.
       </p>
       <p class="legal-links">
         <a href="{{ '/mentions-legales/' | relative_url }}">Mentions légales</a> ·
@@ -78,6 +73,5 @@
       <p class="copyright">© {{ 'now' | date: "%Y" }} FeralSync — Fargam</p>
     </div>
   </footer>
-
 </body>
 </html>
