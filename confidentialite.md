@@ -33,16 +33,16 @@ sécurité et de bon fonctionnement du service. Ces données sont traitées par
 GitHub selon sa propre politique de confidentialité, sur laquelle l'éditeur
 n'a pas la main.
 
-## Liens d'affiliation
+## Liens vers Amazon
 
-Ce site contient des liens vers Amazon dans le cadre du Programme Partenaires
-d'Amazon EU. Lorsque vous cliquez sur un tel lien, Amazon peut déposer des
-cookies sur votre navigateur afin d'attribuer un éventuel achat. Ce traitement
-relève de la politique de confidentialité d'Amazon.
+Ce site, et l'application FeralSync, peuvent contenir des liens vers des
+produits proposés sur Amazon. Lorsque vous cliquez sur un tel lien, vous quittez
+ce site : Amazon peut alors déposer des cookies sur votre navigateur, selon ses
+propres modalités. Ce traitement relève entièrement de la politique de
+confidentialité d'Amazon, sur laquelle l'éditeur n'a aucune prise.
 
-L'éditeur n'a accès à aucune donnée personnelle vous concernant via ce
-dispositif : seules des statistiques agrégées et anonymes de commissions lui
-sont communiquées.
+L'éditeur ne perçoit actuellement aucune rémunération liée à ces liens et n'a
+accès à aucune donnée personnelle vous concernant par ce biais.
 
 ## L'application FeralSync
 
