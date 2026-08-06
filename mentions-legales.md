@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mentions légales
-description: "Mentions légales du site feralsync.com — éditeur, hébergeur, propriété intellectuelle et affiliation."
+description: "Mentions légales du site feralsync.com — éditeur, hébergeur, propriété intellectuelle et liens externes."
 permalink: /mentions-legales/
 ---
 
@@ -50,14 +50,14 @@ autorisation écrite préalable est interdite.
 Les marques et logos de tiers éventuellement cités restent la propriété de
 leurs détenteurs respectifs.
 
-## Liens d'affiliation
+## Liens vers Amazon
 
-Ce site participe au Programme Partenaires d'Amazon EU, un programme
-d'affiliation permettant à des sites de percevoir une rémunération grâce à la
-création de liens vers Amazon.fr.
+Ce site, et l'application FeralSync, peuvent contenir des liens vers des
+produits proposés sur Amazon, à titre indicatif et pour faciliter la recherche.
 
-En tant que Partenaire Amazon, l'éditeur perçoit un bénéfice sur les achats
-remplissant les conditions requises. Le prix payé par l'acheteur reste
+L'éditeur ne perçoit actuellement aucune rémunération liée à ces liens. Si un
+programme d'affiliation venait à être mis en place, cette mention serait mise à
+jour en conséquence, et le prix payé par l'acheteur resterait dans tous les cas
 inchangé.
 
 ## Nature des contenus
