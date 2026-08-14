@@ -38,17 +38,12 @@ quittent pas votre téléphone.</p>
 
 ## Disponibilité
 
-<p><strong>L'application arrive prochainement sur Google Play.</strong></p>
+<p><strong>FeralSync est disponible sur Google Play</strong> — gratuite, sans compte,
+et 100 % hors-ligne.</p>
 
-<!-- ============================================================
-     QUAND L'APP SERA PUBLIÉE : remplace le paragraphe ci-dessus
-     par le bouton ci-dessous (retire les balises de commentaire
-     et mets ta vraie URL Play Store) :
-
-<a class="btn" href="https://play.google.com/store/apps/details?id=TON.PACKAGE.ICI">
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.feralsync.app">
   Télécharger sur Google Play
 </a>
-     ============================================================ -->
 
 <p class="post-footer-note" style="display:block">
 L'application est un outil d'organisation et d'information sur l'hygiène de vie.
