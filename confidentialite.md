@@ -41,8 +41,13 @@ ce site : Amazon peut alors déposer des cookies sur votre navigateur, selon ses
 propres modalités. Ce traitement relève entièrement de la politique de
 confidentialité d'Amazon, sur laquelle l'éditeur n'a aucune prise.
 
-L'éditeur ne perçoit actuellement aucune rémunération liée à ces liens et n'a
-accès à aucune donnée personnelle vous concernant par ce biais.
+L'éditeur participe au Programme Partenaires d'Amazon EU : en tant que
+Partenaire Amazon, il réalise un bénéfice sur les achats remplissant les
+conditions requises. Les liens peuvent contenir un identifiant d'affiliation
+permettant à Amazon d'attribuer les achats effectués à ce site. L'éditeur n'a
+pour autant accès à aucune donnée personnelle vous concernant par ce biais :
+il ne reçoit d'Amazon que des statistiques agrégées et anonymes (nombre de
+clics, commissions), jamais votre identité ni le détail de vos commandes.
 
 ## L'application FeralSync
 
