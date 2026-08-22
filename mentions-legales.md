@@ -55,10 +55,11 @@ leurs détenteurs respectifs.
 Ce site, et l'application FeralSync, peuvent contenir des liens vers des
 produits proposés sur Amazon, à titre indicatif et pour faciliter la recherche.
 
-L'éditeur ne perçoit actuellement aucune rémunération liée à ces liens. Si un
-programme d'affiliation venait à être mis en place, cette mention serait mise à
-jour en conséquence, et le prix payé par l'acheteur resterait dans tous les cas
-inchangé.
+L'éditeur participe au Programme Partenaires d'Amazon EU, un programme
+d'affiliation permettant de percevoir une rémunération grâce aux liens vers
+Amazon.fr. En tant que Partenaire Amazon, je réalise un bénéfice sur les achats
+remplissant les conditions requises. Le prix payé par l'acheteur reste dans
+tous les cas inchangé.
 
 ## Nature des contenus
 
