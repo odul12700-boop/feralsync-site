@@ -11,8 +11,8 @@ permalink: /confidentialite/
 
 ## Responsable du traitement
 
-Ludovic Arrazat, entrepreneur individuel (nom commercial : Fargam)
-413 rue Jules Guesde — 12110 Cransac, France
+Ludovic Arrazat, entrepreneur individuel (nom commercial : Fargam)<br>
+413 rue Jules Guesde — 12110 Cransac, France<br>
 Contact : [contact@feralsync.com](mailto:contact@feralsync.com)
 
 ## Ce que ce site collecte
