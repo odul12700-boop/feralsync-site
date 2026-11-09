@@ -11,8 +11,8 @@ permalink: /mentions-legales/
 
 Le site **feralsync.com** est édité par :
 
-**Ludovic Arrazat**, entrepreneur individuel
-Nom commercial : **Fargam**
+**Ludovic Arrazat**, entrepreneur individuel<br>
+Nom commercial : **Fargam**<br>
 413 rue Jules Guesde — 12110 Cransac, France
 
 - SIREN : 497 531 426
@@ -20,6 +20,7 @@ Nom commercial : **Fargam**
 - Code APE : 5829C — Édition de logiciels applicatifs
 - Registre : immatriculée au Registre national des entreprises (RNE)
 - Contact : [contact@feralsync.com](mailto:contact@feralsync.com)
+- Téléphone : 06 89 68 94 04
 
 <!-- Si vous relevez de la franchise en base de TVA (cas courant en
      micro-entreprise), décommentez la ligne ci-dessous. Vérifiez votre
@@ -36,8 +37,8 @@ Ludovic Arrazat
 
 Ce site est hébergé par :
 
-**GitHub, Inc.**
-88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis
+**GitHub, Inc.**<br>
+88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis<br>
 [https://pages.github.com](https://pages.github.com)
 
 ## Propriété intellectuelle
